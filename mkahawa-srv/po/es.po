@@ -1,0 +1,1518 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cclfox 0.7.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-14 13:38-0600\n"
+"PO-Revision-Date: 2005-03-12 19:22-0300\n"
+"Last-Translator: Bruno Deferrari <tizoc@users.sourceforge.net>\n"
+"Language-Team: tizoc <tizoc@users.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/CashingFrame.cpp:75 src/EmployeesFrame.cpp:95 src/PrePaidFrame.cpp:69
+#: src/ProductsFrame.cpp:19 src/TarifFrame.cpp:263
+#, fuzzy
+msgid "Permission"
+msgstr "Sesiones:"
+
+#: src/CashingFrame.cpp:76 src/EmployeesFrame.cpp:96 src/PrePaidFrame.cpp:70
+#: src/ProductsFrame.cpp:20 src/TarifFrame.cpp:264
+msgid ""
+"Unable to access this feature.\n"
+" Contact the Administrator"
+msgstr ""
+
+#: src/CashingFrame.cpp:111 src/CashingFrame.cpp:410
+msgid "Client:"
+msgstr "Cliente:"
+
+#: src/CashingFrame.cpp:113 src/CashingFrame.cpp:124 src/EmployeesFrame.cpp:45
+#: src/ProductsFrame.cpp:99
+msgid "Edit"
+msgstr "Editar"
+
+#: src/CashingFrame.cpp:118
+msgid "Browse Time:"
+msgstr ""
+
+#: src/CashingFrame.cpp:129 src/CashingFrame.cpp:456 src/CCLWin.cpp:361
+msgid "Products:"
+msgstr "Productos:"
+
+#: src/CashingFrame.cpp:142 src/CCLWin.cpp:271 src/EmployeesFrame.cpp:56
+#: src/EmployeesFrame.cpp:485 src/MembersFrame.cpp:287
+#: src/ProductsFrame.cpp:122 src/ProductsFrame.cpp:138 src/TarifFrame.cpp:572
+msgid "Name"
+msgstr "Nombre"
+
+#: src/CashingFrame.cpp:143 src/LogFrame.cpp:91 src/LogFrame.cpp:101
+#: src/LogFrame.cpp:113 src/LogFrame.cpp:920 src/ReportFrame.cpp:92
+#: src/ReportFrame.cpp:102 src/ReportFrame.cpp:114 src/ReportFrame.cpp:920
+msgid "Amount"
+msgstr "Cantidad"
+
+#: src/CashingFrame.cpp:144 src/LogFrame.cpp:80 src/LogFrame.cpp:102
+#: src/ProductsFrame.cpp:123 src/ReportFrame.cpp:81 src/ReportFrame.cpp:103
+#: src/TarifFrame.cpp:124
+msgid "Price"
+msgstr "Precio"
+
+#: src/CashingFrame.cpp:145
+#, fuzzy
+msgid "Time Interval:"
+msgstr "Intervalos de tiempo:"
+
+#: src/CashingFrame.cpp:153 src/CCLWin.cpp:282 src/LogFrame.cpp:77
+#: src/NotpaidFrame.cpp:33 src/ReportFrame.cpp:78 src/TarifFrame.cpp:60
+msgid "Start"
+msgstr "Inicio"
+
+#: src/CashingFrame.cpp:154
+#, fuzzy
+msgid "Duration"
+msgstr "Descripción"
+
+#: src/CashingFrame.cpp:158
+#, fuzzy
+msgid "Total Duration:"
+msgstr "Tiempo total:"
+
+#: src/CashingFrame.cpp:167
+#, fuzzy
+msgid "Total Amount:"
+msgstr "Cantidad:"
+
+#: src/CashingFrame.cpp:177 src/CashingFrame.cpp:586
+msgid "Discount:"
+msgstr "Descuento:"
+
+#: src/CashingFrame.cpp:181
+msgid "Cash"
+msgstr "Cobrar"
+
+#: src/CashingFrame.cpp:183
+msgid "Log as cancelled"
+msgstr "Registrar cancelada"
+
+#: src/CashingFrame.cpp:185
+msgid "Cancel sale"
+msgstr "Cancelar venta"
+
+#: src/CashingFrame.cpp:201 src/CashingFrame.cpp:977
+msgid "Calculate change"
+msgstr "Calcular el cambio"
+
+#: src/CashingFrame.cpp:417
+msgid "Total time:"
+msgstr "Tiempo total:"
+
+#: src/CashingFrame.cpp:462
+msgid "Workstation time:"
+msgstr "Tiempo de máquina:"
+
+#: src/CashingFrame.cpp:522
+msgid "Tax"
+msgstr "Impuesto"
+
+#: src/CashingFrame.cpp:548 src/LogFrame.cpp:1040 src/ProductsFrame.cpp:632
+#: src/ReportFrame.cpp:1001
+msgid "Ticket number:"
+msgstr "Número de ticket:"
+
+#: src/CashingFrame.cpp:555 src/LogFrame.cpp:1047 src/ProductsFrame.cpp:639
+#: src/ReportFrame.cpp:1008
+msgid "Date:"
+msgstr "Fecha:"
+
+#: src/CashingFrame.cpp:564 src/LogFrame.cpp:163 src/ReportFrame.cpp:160
+msgid "Member:"
+msgstr "Socio:"
+
+#: src/CashingFrame.cpp:579
+msgid "Subtotal:"
+msgstr "Subtotal:"
+
+#: src/CashingFrame.cpp:606
+msgid "Total price:"
+msgstr "Precio total:"
+
+#: src/CashingFrame.cpp:753
+msgid "Change member"
+msgstr "Cambiar socio"
+
+#: src/CashingFrame.cpp:754
+#, fuzzy
+msgid "Enter the member ID (0 for none):"
+msgstr "ID del socio (0 para ninguno):"
+
+#: src/CashingFrame.cpp:830
+msgid "New price"
+msgstr "Nuevo precio"
+
+#: src/CashingFrame.cpp:831
+#, fuzzy
+msgid "Enter the new price:"
+msgstr "Inserte el nuevo precio:"
+
+#: src/CashingFrame.cpp:894
+msgid "Edit ticket format"
+msgstr "Editar el formato de ticket"
+
+#: src/CashingFrame.cpp:897
+msgid "Header:"
+msgstr "Encabezado:"
+
+#: src/CashingFrame.cpp:902
+msgid "Footer:"
+msgstr "Pié:"
+
+#: src/CashingFrame.cpp:909
+msgid "Tax name:"
+msgstr "Nombre del impuesto:"
+
+#: src/CashingFrame.cpp:913
+msgid "Tax %:"
+msgstr "% del impuesto:"
+
+#: src/CashingFrame.cpp:919 src/EmployeesFrame.cpp:348
+#: src/EmployeesFrame.cpp:659 src/ProductsFrame.cpp:328
+#: src/ProductsFrame.cpp:380 src/TarifFrame.cpp:485 src/TarifFrame.cpp:568
+msgid "Accept"
+msgstr "Aceptar"
+
+#: src/CashingFrame.cpp:921 src/CCLWin.cpp:1988 src/CCLWin.cpp:2088
+#: src/EmployeesFrame.cpp:350 src/EmployeesFrame.cpp:661
+#: src/ProductsFrame.cpp:330 src/ProductsFrame.cpp:382 src/TarifFrame.cpp:487
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/CashingFrame.cpp:978
+msgid "The client paid with:"
+msgstr "El cliente pagó con:"
+
+#: src/CashingFrame.cpp:982 src/CashingFrame.cpp:988
+msgid "Change:"
+msgstr "Cambio:"
+
+#: src/CCLWin.cpp:136
+msgid "Information Update"
+msgstr ""
+
+#: src/CCLWin.cpp:163
+msgid "Clients"
+msgstr "Clientes"
+
+#: src/CCLWin.cpp:169
+msgid "Log"
+msgstr "Registro"
+
+#: src/CCLWin.cpp:174
+#, fuzzy
+msgid "Report"
+msgstr "Reiniciar"
+
+#: src/CCLWin.cpp:199
+#, fuzzy
+msgid "\tStart a Session"
+msgstr "\tComenzar una nueva sesión"
+
+#: src/CCLWin.cpp:203
+#, fuzzy
+msgid "\tPause Session"
+msgstr "\tPausar sesión actual"
+
+#: src/CCLWin.cpp:207
+#, fuzzy
+msgid "\tStop Session"
+msgstr "\tIntercambiar sesiones"
+
+#: src/CCLWin.cpp:211
+#, fuzzy
+msgid "\tContinue Session"
+msgstr "\tContinuar sesión"
+
+#: src/CCLWin.cpp:215
+#, fuzzy
+msgid "\tSwap Sessions"
+msgstr "\tIntercambiar sesiones"
+
+#: src/CCLWin.cpp:219
+#, fuzzy
+msgid "\tSet Timeout"
+msgstr "\tAjustar cuenta regresiva"
+
+#: src/CCLWin.cpp:223
+msgid "\tMessage Client"
+msgstr ""
+
+#: src/CCLWin.cpp:227
+msgid "\tStaff Login"
+msgstr ""
+
+#: src/CCLWin.cpp:231
+#, fuzzy
+msgid "\tNew Client"
+msgstr ""
+"Nuevo\n"
+"cliente"
+
+#: src/CCLWin.cpp:235
+#, fuzzy
+msgid "\tDelete Client"
+msgstr ""
+"Borrar\n"
+"cliente"
+
+#: src/CCLWin.cpp:250
+#, fuzzy
+msgid "Client Icons"
+msgstr "Clientes"
+
+#: src/CCLWin.cpp:253
+#, fuzzy
+msgid "Client Details"
+msgstr "Clientes"
+
+#: src/CCLWin.cpp:280 src/NotpaidFrame.cpp:31
+msgid "Client"
+msgstr "Cliente"
+
+#: src/CCLWin.cpp:281 src/EmployeesFrame.cpp:59
+#, fuzzy
+msgid "Status"
+msgstr "Inicio"
+
+#: src/CCLWin.cpp:283 src/LogFrame.cpp:78 src/NotpaidFrame.cpp:34
+#: src/ReportFrame.cpp:79
+msgid "End"
+msgstr "Fin"
+
+#: src/CCLWin.cpp:284
+msgid "Length"
+msgstr ""
+
+#: src/CCLWin.cpp:285
+#, fuzzy
+msgid "Session Cost"
+msgstr "Sesiones:"
+
+#: src/CCLWin.cpp:286
+msgid "Other"
+msgstr ""
+
+#: src/CCLWin.cpp:311
+msgid "\tGrant 10 Minutes"
+msgstr ""
+
+#: src/CCLWin.cpp:315
+msgid "\tGrant 20 Minutes"
+msgstr ""
+
+#: src/CCLWin.cpp:319
+msgid "\tGrant 30 Minutes"
+msgstr ""
+
+#: src/CCLWin.cpp:323
+msgid "\tGrant 1 Hour"
+msgstr ""
+
+#: src/CCLWin.cpp:340 src/LogFrame.cpp:55 src/MSGWin.cpp:36
+#: src/ReportFrame.cpp:54
+msgid "Time:"
+msgstr "Tiempo:"
+
+#: src/CCLWin.cpp:347
+msgid "Total:"
+msgstr "Total:"
+
+#: src/CCLWin.cpp:354
+msgid "Terminal:"
+msgstr "Terminal:"
+
+#: src/CCLWin.cpp:372 src/CCLWin.cpp:391
+msgid "Blank Screen"
+msgstr ""
+
+#: src/CCLWin.cpp:373
+#, fuzzy
+msgid "Set Member"
+msgstr "Socio"
+
+#: src/CCLWin.cpp:374 src/CCLWin.cpp:392
+#, fuzzy
+msgid "Reboot Machine"
+msgstr "Reiniciar"
+
+#: src/CCLWin.cpp:375
+msgid "Shutdown Machine"
+msgstr ""
+
+#: src/CCLWin.cpp:376 src/CCLWin.cpp:394
+#, fuzzy
+msgid "Update Client"
+msgstr "Cliente"
+
+#: src/CCLWin.cpp:378 src/CCLWin.cpp:397
+msgid "User May Start Session"
+msgstr ""
+
+#: src/CCLWin.cpp:381 src/CCLWin.cpp:400
+#, fuzzy
+msgid "Member May Start Session"
+msgstr "Permitir a los socios iniciar sesión"
+
+#: src/CCLWin.cpp:384 src/CCLWin.cpp:403
+msgid "Allow Assistance Request"
+msgstr ""
+
+#: src/CCLWin.cpp:393
+msgid "Shutdown Client"
+msgstr ""
+
+#: src/CCLWin.cpp:395 src/CCLWin.cpp:1654 src/CCLWin.cpp:1669
+#: src/CCLWin.cpp:1673
+msgid "Admin Password"
+msgstr ""
+
+#: src/CCLWin.cpp:411 src/LogFrame.cpp:139 src/ReportFrame.cpp:140
+msgid "Products"
+msgstr "Productos"
+
+#: src/CCLWin.cpp:415
+msgid "Cashing"
+msgstr "Cobranza"
+
+#: src/CCLWin.cpp:419 src/MembersFrame.cpp:274
+#, fuzzy
+msgid "Tariff"
+msgstr "Tarifa"
+
+#: src/CCLWin.cpp:423
+msgid "Members"
+msgstr "Socios"
+
+#: src/CCLWin.cpp:428 src/LogFrame.cpp:82 src/LogFrame.cpp:104
+#: src/LogFrame.cpp:123 src/ReportFrame.cpp:83 src/ReportFrame.cpp:105
+#: src/ReportFrame.cpp:124
+#, fuzzy
+msgid "Staff"
+msgstr "Inicio"
+
+#: src/CCLWin.cpp:432
+#, fuzzy
+msgid "Prepaid Tickets"
+msgstr "Imprimir ticket"
+
+#: src/CCLWin.cpp:508
+msgid "Exit Mkahawa"
+msgstr ""
+
+#: src/CCLWin.cpp:509
+msgid "Do you really want to quit Mkahawa?"
+msgstr ""
+
+#: src/CCLWin.cpp:593 src/CCLWin.cpp:621
+msgid "Member"
+msgstr "Socio"
+
+#: src/CCLWin.cpp:594 src/CCLWin.cpp:622
+#, fuzzy
+msgid "Member ID (0 for none):"
+msgstr "ID del socio (0 para ninguno):"
+
+#: src/CCLWin.cpp:612 src/CCLWin.cpp:646 src/LogFrame.cpp:342
+#: src/LogFrame.cpp:345 src/LogFrame.cpp:348 src/MembersFrame.cpp:198
+#: src/MembersFrame.cpp:358 src/ReportFrame.cpp:343 src/ReportFrame.cpp:346
+#: src/ReportFrame.cpp:349 src/TarifFrame.cpp:626
+msgid "Error"
+msgstr "Error"
+
+#: src/CCLWin.cpp:612 src/CCLWin.cpp:646
+msgid "Invalid member"
+msgstr "Socio inválido"
+
+#: src/CCLWin.cpp:641
+msgid "Overdrawn Account"
+msgstr ""
+
+#: src/CCLWin.cpp:642
+msgid "Replenish the account first."
+msgstr ""
+
+#: src/CCLWin.cpp:1129
+msgid "account has insufficient credit"
+msgstr ""
+
+#: src/CCLWin.cpp:1132
+#, fuzzy
+msgid "Member Login Failure"
+msgstr "Nombre del socio"
+
+#: src/CCLWin.cpp:1255
+msgid "Wrong old password."
+msgstr "Clave vieja equivocada."
+
+#: src/CCLWin.cpp:1458
+msgid "Client Update File"
+msgstr ""
+
+#: src/CCLWin.cpp:1459
+msgid "*.upd,*.upx"
+msgstr ""
+
+#: src/CCLWin.cpp:1462
+#, fuzzy
+msgid "No File Selected"
+msgstr "No se seleccionaron días"
+
+#: src/CCLWin.cpp:1463
+msgid "Select an Update File?"
+msgstr ""
+
+#: src/CCLWin.cpp:1521
+msgid "Unable to open update file\n"
+msgstr ""
+
+#: src/CCLWin.cpp:1530
+msgid "Unable to read update file\n"
+msgstr ""
+
+#: src/CCLWin.cpp:1565
+msgid "Only Admin can update clients."
+msgstr ""
+
+#: src/CCLWin.cpp:1571
+msgid "Only connected Clients can be updated"
+msgstr ""
+
+#: src/CCLWin.cpp:1578 src/CCLWin.cpp:1699
+msgid "Update in Progress"
+msgstr ""
+
+#: src/CCLWin.cpp:1579
+msgid "Updates can only be made one at a time."
+msgstr ""
+
+#: src/CCLWin.cpp:1583
+#, fuzzy
+msgid "Active Client"
+msgstr "Cliente"
+
+#: src/CCLWin.cpp:1584
+msgid "End the client session before updating."
+msgstr ""
+
+#: src/CCLWin.cpp:1589
+#, fuzzy
+msgid "Update File not found\n"
+msgstr "Cliente"
+
+#: src/CCLWin.cpp:1597
+msgid "Unable to open file\n"
+msgstr ""
+
+#: src/CCLWin.cpp:1622
+msgid "Not a Mkahawa Update File\n"
+msgstr ""
+
+#: src/CCLWin.cpp:1655
+msgid "New Client Admin Password: "
+msgstr ""
+
+#: src/CCLWin.cpp:1670
+msgid "Password has been sent!"
+msgstr ""
+
+#: src/CCLWin.cpp:1674
+msgid "Password is invalid!"
+msgstr ""
+
+#: src/CCLWin.cpp:1700
+msgid "Current client is being updated."
+msgstr ""
+
+#: src/CCLWin.cpp:1836
+#, fuzzy
+msgid "Adjust Timeout"
+msgstr "\tAjustar cuenta regresiva"
+
+#: src/CCLWin.cpp:1869
+msgid "About"
+msgstr "Acerca"
+
+#: src/CCLWin.cpp:1870
+msgid ""
+"Modified by Bernard Owuor, Unwire Technologies (owuor@unwiretechnologies.net)"
+msgstr ""
+
+#: src/CCLWin.cpp:1912 src/LogFrame.cpp:79 src/LogFrame.cpp:90
+#: src/NotpaidFrame.cpp:32 src/ReportFrame.cpp:80 src/ReportFrame.cpp:91
+msgid "Time"
+msgstr "Tiempo"
+
+#: src/CCLWin.cpp:1912 src/TarifFrame.cpp:469
+msgid "Minutes:"
+msgstr "Minutos:"
+
+#: src/CCLWin.cpp:1977
+#, fuzzy
+msgid "Confirm Action"
+msgstr "Conflicto"
+
+#: src/CCLWin.cpp:1983
+msgid "Apply this action to all stations?"
+msgstr ""
+
+#: src/CCLWin.cpp:1986 src/TarifFrame.cpp:70
+msgid "Apply"
+msgstr "Aplicar"
+
+#: src/CCLWin.cpp:2060
+#, fuzzy
+msgid "Add new Client"
+msgstr "Nuevo cliente"
+
+#: src/CCLWin.cpp:2061
+#, fuzzy
+msgid "New Client Name:"
+msgstr ""
+"Nuevo\n"
+"cliente"
+
+#: src/CCLWin.cpp:2075
+#, fuzzy
+msgid "Delete Client?"
+msgstr ""
+"Borrar\n"
+"cliente"
+
+#: src/CCLWin.cpp:2086 src/EmployeesFrame.cpp:47 src/MembersFrame.cpp:50
+#: src/PrePaidFrame.cpp:47 src/ProductsFrame.cpp:97 src/TarifFrame.cpp:68
+msgid "Delete"
+msgstr "Borrar"
+
+#: src/CCLWin.cpp:2399
+#, fuzzy
+msgid "Add Products"
+msgstr "Agregar productos"
+
+#: src/CCLWin.cpp:2400
+#, fuzzy
+msgid "Enter the quantity:"
+msgstr "Inserta la cantidad:"
+
+#: src/CCLWin.cpp:2417
+#, fuzzy
+msgid "Remove Products"
+msgstr "Productos"
+
+#: src/CCLWin.cpp:2418
+msgid "Quantity:"
+msgstr ""
+
+#: src/CCLWin.cpp:2449
+msgid "Staff Login"
+msgstr ""
+
+#: src/CCLWin.cpp:2450
+#, fuzzy
+msgid "User Name:"
+msgstr "Nombre:"
+
+#: src/CCLWin.cpp:2452
+#, fuzzy
+msgid "Password:"
+msgstr "Resetear clave"
+
+#: src/CCLWin.cpp:2458
+msgid "   Ok   "
+msgstr ""
+
+#: src/CCLWin.cpp:2461
+msgid "  Quit  "
+msgstr ""
+
+#: src/CCLWin.cpp:2476
+msgid "Welcome"
+msgstr ""
+
+#: src/CCLWin.cpp:2477
+msgid "Welcome to Mkahawa Cyber Manager"
+msgstr ""
+
+#: src/CCLWin.cpp:2488
+#, fuzzy
+msgid "Login Failure"
+msgstr "Nombre de acceso:"
+
+#: src/CCLWin.cpp:2490
+msgid "Invalid Username or Password"
+msgstr ""
+
+#: src/CCLWin.cpp:2505
+#, fuzzy
+msgid "Logout"
+msgstr "Registro"
+
+#: src/CCLWin.cpp:2506
+msgid "Do you want to log out?"
+msgstr ""
+
+#: src/CCLWin.cpp:2542 src/CCLWin.cpp:2563 src/CCLWin.cpp:2591
+msgid "Message to Client"
+msgstr ""
+
+#: src/CCLWin.cpp:2543 src/CCLWin.cpp:2564 src/CCLWin.cpp:2592
+msgid "Message:"
+msgstr ""
+
+#: src/EmployeesFrame.cpp:41 src/MembersFrame.cpp:48 src/ProductsFrame.cpp:95
+#: src/TarifFrame.cpp:72
+msgid "New"
+msgstr "Nuevo"
+
+#: src/EmployeesFrame.cpp:55
+msgid "UserID"
+msgstr ""
+
+#: src/EmployeesFrame.cpp:57 src/MembersFrame.cpp:68
+msgid "Phone"
+msgstr ""
+
+#: src/EmployeesFrame.cpp:58
+#, fuzzy
+msgid "Email"
+msgstr "E-Mail:"
+
+#: src/EmployeesFrame.cpp:61
+#, fuzzy
+msgid "Staff Details"
+msgstr "Clientes"
+
+#: src/EmployeesFrame.cpp:64 src/MembersFrame.cpp:61 src/ProductsFrame.cpp:313
+msgid "Name:"
+msgstr "Nombre:"
+
+#: src/EmployeesFrame.cpp:67
+msgid "E-Mail:"
+msgstr "E-Mail:"
+
+#: src/EmployeesFrame.cpp:70
+#, fuzzy
+msgid "Phone Number:"
+msgstr "Telefono:"
+
+#: src/EmployeesFrame.cpp:208
+msgid "Admin Deletion"
+msgstr ""
+
+#: src/EmployeesFrame.cpp:209
+msgid "Administrator cannot be deleted"
+msgstr ""
+
+#: src/EmployeesFrame.cpp:263
+msgid "Edit Staff Info"
+msgstr ""
+
+#: src/EmployeesFrame.cpp:290 src/EmployeesFrame.cpp:601
+#, fuzzy
+msgid "Username: "
+msgstr "Nombre:"
+
+#: src/EmployeesFrame.cpp:295 src/EmployeesFrame.cpp:604
+#, fuzzy
+msgid "Password: "
+msgstr "Resetear clave"
+
+#: src/EmployeesFrame.cpp:299 src/EmployeesFrame.cpp:609
+#, fuzzy
+msgid "Full Name: "
+msgstr "Nombre del archivo:"
+
+#: src/EmployeesFrame.cpp:303 src/EmployeesFrame.cpp:614
+#, fuzzy
+msgid "Email: "
+msgstr "E-Mail:"
+
+#: src/EmployeesFrame.cpp:306 src/EmployeesFrame.cpp:617
+#, fuzzy
+msgid "Phone: "
+msgstr "Telefono:"
+
+#: src/EmployeesFrame.cpp:309 src/EmployeesFrame.cpp:620
+#, fuzzy
+msgid "Permissions:- "
+msgstr "Sesiones:"
+
+#: src/EmployeesFrame.cpp:316 src/EmployeesFrame.cpp:628
+#, fuzzy
+msgid "Edit Tariffs"
+msgstr "Tarifa"
+
+#: src/EmployeesFrame.cpp:318 src/EmployeesFrame.cpp:630
+#, fuzzy
+msgid "Change Tariffs"
+msgstr "Tarifa"
+
+#: src/EmployeesFrame.cpp:320 src/EmployeesFrame.cpp:632
+#, fuzzy
+msgid "Edit Member Info"
+msgstr "Socio"
+
+#: src/EmployeesFrame.cpp:322 src/EmployeesFrame.cpp:634
+#, fuzzy
+msgid "Set Member Clients"
+msgstr "Socio"
+
+#: src/EmployeesFrame.cpp:324 src/EmployeesFrame.cpp:636
+msgid "General Configuration"
+msgstr ""
+
+#: src/EmployeesFrame.cpp:326 src/EmployeesFrame.cpp:638
+#: src/ProductsFrame.cpp:483
+#, fuzzy
+msgid "Sell Products"
+msgstr "Productos"
+
+#: src/EmployeesFrame.cpp:328 src/EmployeesFrame.cpp:640
+#, fuzzy
+msgid "Edit Products"
+msgstr "Editar Producto"
+
+#: src/EmployeesFrame.cpp:330 src/EmployeesFrame.cpp:642
+#, fuzzy
+msgid "Stock Products"
+msgstr "Productos"
+
+#: src/EmployeesFrame.cpp:334 src/EmployeesFrame.cpp:645
+msgid "Receive Payments"
+msgstr ""
+
+#: src/EmployeesFrame.cpp:336 src/EmployeesFrame.cpp:647
+msgid "Edit Payments"
+msgstr ""
+
+#: src/EmployeesFrame.cpp:338 src/EmployeesFrame.cpp:649
+#, fuzzy
+msgid "Give Discounts"
+msgstr "Descuento"
+
+#: src/EmployeesFrame.cpp:340 src/EmployeesFrame.cpp:651
+#, fuzzy
+msgid "Cancel Payments"
+msgstr "Cancelar venta"
+
+#: src/EmployeesFrame.cpp:342 src/EmployeesFrame.cpp:653
+#, fuzzy
+msgid "View Reports"
+msgstr "Reiniciar"
+
+#: src/EmployeesFrame.cpp:344 src/EmployeesFrame.cpp:655
+#, fuzzy
+msgid "Print Reports"
+msgstr "Imprimir ticket"
+
+#: src/EmployeesFrame.cpp:424
+msgid "\t"
+msgstr ""
+
+#: src/EmployeesFrame.cpp:471
+msgid "Usrlvl"
+msgstr ""
+
+#: src/EmployeesFrame.cpp:480
+#, fuzzy
+msgid "Select"
+msgstr "Borrar"
+
+#: src/EmployeesFrame.cpp:484 src/MembersFrame.cpp:286 src/TarifFrame.cpp:571
+msgid "ID"
+msgstr "ID"
+
+#: src/EmployeesFrame.cpp:521
+#, fuzzy
+msgid "Set Password"
+msgstr "Resetear clave"
+
+#: src/EmployeesFrame.cpp:522
+#, fuzzy
+msgid "Type the password: "
+msgstr "Escriba el nombre:"
+
+#: src/EmployeesFrame.cpp:582
+#, fuzzy
+msgid "Staff Member Info"
+msgstr "Socio"
+
+#: src/LogFrame.cpp:57 src/ReportFrame.cpp:58
+#, fuzzy
+msgid "Sessions: "
+msgstr "Sesiones:"
+
+#: src/LogFrame.cpp:59 src/ReportFrame.cpp:60
+#, fuzzy
+msgid "Products: "
+msgstr "Productos:"
+
+#: src/LogFrame.cpp:61 src/ReportFrame.cpp:62
+#, fuzzy
+msgid "Expenses: "
+msgstr "Gastos:"
+
+#: src/LogFrame.cpp:63 src/ReportFrame.cpp:64
+#, fuzzy
+msgid "Total: "
+msgstr "Total:"
+
+#: src/LogFrame.cpp:76 src/LogFrame.cpp:88 src/LogFrame.cpp:99
+#: src/ReportFrame.cpp:77 src/ReportFrame.cpp:89 src/ReportFrame.cpp:100
+#, fuzzy
+msgid "Station"
+msgstr "Inicio"
+
+#: src/LogFrame.cpp:81 src/LogFrame.cpp:103 src/ReportFrame.cpp:82
+#: src/ReportFrame.cpp:104
+msgid "Discount"
+msgstr "Descuento"
+
+#: src/LogFrame.cpp:89 src/LogFrame.cpp:136 src/ReportFrame.cpp:90
+#: src/ReportFrame.cpp:137
+#, fuzzy
+msgid "Sessions"
+msgstr "Sesiones:"
+
+#: src/LogFrame.cpp:98 src/LogFrame.cpp:111 src/ReportFrame.cpp:99
+#: src/ReportFrame.cpp:112
+msgid "Product"
+msgstr "Producto"
+
+#: src/LogFrame.cpp:100 src/LogFrame.cpp:121 src/ReportFrame.cpp:101
+#: src/ReportFrame.cpp:122
+msgid "Date"
+msgstr "Fecha"
+
+#: src/LogFrame.cpp:112 src/ReportFrame.cpp:113
+msgid "Units"
+msgstr ""
+
+#: src/LogFrame.cpp:120 src/LogFrame.cpp:917 src/ReportFrame.cpp:121
+#: src/ReportFrame.cpp:917
+msgid "Description"
+msgstr "Descripción"
+
+#: src/LogFrame.cpp:122 src/ReportFrame.cpp:123
+msgid "Spent"
+msgstr "Gasto"
+
+#: src/LogFrame.cpp:128 src/ReportFrame.cpp:129
+msgid "Clear"
+msgstr "Limpiar"
+
+#: src/LogFrame.cpp:130 src/ReportFrame.cpp:131
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: src/LogFrame.cpp:142
+#, fuzzy
+msgid "Expenses"
+msgstr "Gastos:"
+
+#: src/LogFrame.cpp:145 src/LogFrame.cpp:954 src/ReportFrame.cpp:146
+#: src/ReportFrame.cpp:954
+msgid "Save Report"
+msgstr ""
+
+#: src/LogFrame.cpp:148
+#, fuzzy
+msgid "Save Log"
+msgstr "Guardar en archivo"
+
+#: src/LogFrame.cpp:154 src/MSGWin.cpp:40 src/ReportFrame.cpp:151
+msgid "From:"
+msgstr "Desde:"
+
+#: src/LogFrame.cpp:157 src/LogFrame.cpp:171 src/ReportFrame.cpp:154
+#: src/ReportFrame.cpp:168
+msgid "of"
+msgstr "del"
+
+#: src/LogFrame.cpp:166 src/ReportFrame.cpp:163
+#, fuzzy
+msgid "Staff:"
+msgstr "Inicio:"
+
+#: src/LogFrame.cpp:168 src/ReportFrame.cpp:165
+#, fuzzy
+msgid "    To:"
+msgstr "Hasta"
+
+#: src/LogFrame.cpp:174 src/ReportFrame.cpp:171
+msgid "Canceled"
+msgstr "Canceladas"
+
+#: src/LogFrame.cpp:176 src/ReportFrame.cpp:173
+msgid "Summary"
+msgstr ""
+
+#: src/LogFrame.cpp:179 src/ReportFrame.cpp:178 src/TarifFrame.cpp:92
+msgid "Days:"
+msgstr "Días"
+
+#: src/LogFrame.cpp:180 src/ReportFrame.cpp:179 src/TarifFrame.cpp:94
+#: src/TarifFrame.cpp:156
+msgid "Sun"
+msgstr "Dom"
+
+#: src/LogFrame.cpp:184 src/ReportFrame.cpp:183 src/TarifFrame.cpp:98
+#: src/TarifFrame.cpp:156
+msgid "Mon"
+msgstr "Lun"
+
+#: src/LogFrame.cpp:187 src/ReportFrame.cpp:186 src/TarifFrame.cpp:101
+#: src/TarifFrame.cpp:156
+msgid "Tue"
+msgstr "Mar"
+
+#: src/LogFrame.cpp:190 src/ReportFrame.cpp:189 src/TarifFrame.cpp:104
+#: src/TarifFrame.cpp:156
+msgid "Wed"
+msgstr "Mié"
+
+#: src/LogFrame.cpp:193 src/ReportFrame.cpp:192 src/TarifFrame.cpp:107
+#: src/TarifFrame.cpp:156
+msgid "Thu"
+msgstr "Jue"
+
+#: src/LogFrame.cpp:196 src/ReportFrame.cpp:195 src/TarifFrame.cpp:110
+#: src/TarifFrame.cpp:156
+msgid "Fri"
+msgstr "Vie"
+
+#: src/LogFrame.cpp:199 src/ReportFrame.cpp:198 src/TarifFrame.cpp:113
+#: src/TarifFrame.cpp:156
+msgid "Sat"
+msgstr "Sáb"
+
+#: src/LogFrame.cpp:202 src/ReportFrame.cpp:201
+msgid "Between:"
+msgstr "Entre:"
+
+#: src/LogFrame.cpp:205 src/ReportFrame.cpp:204
+msgid "and"
+msgstr "y"
+
+#: src/LogFrame.cpp:210 src/ReportFrame.cpp:209
+#, fuzzy
+msgid "  Reset  "
+msgstr "Resetear"
+
+#: src/LogFrame.cpp:342 src/ReportFrame.cpp:343
+msgid "Invalid start date"
+msgstr "Fecha de inicio inválida"
+
+#: src/LogFrame.cpp:345 src/ReportFrame.cpp:346
+msgid "Invalid end date"
+msgstr "Fecha de fin inválida"
+
+#: src/LogFrame.cpp:349 src/ReportFrame.cpp:350
+msgid "Start date greater than end date"
+msgstr "Fecha de inicio mayor que la fecha de fin"
+
+#: src/LogFrame.cpp:918 src/LogFrame.cpp:1052 src/ProductsFrame.cpp:644
+#: src/ReportFrame.cpp:918 src/ReportFrame.cpp:1013
+msgid "Description:"
+msgstr "Descripción:"
+
+#: src/LogFrame.cpp:920 src/ReportFrame.cpp:920
+msgid "Amount:"
+msgstr "Cantidad:"
+
+#: src/LogFrame.cpp:943 src/ReportFrame.cpp:943
+#, fuzzy
+msgid "Save Report File"
+msgstr "Guardar en archivo"
+
+#: src/LogFrame.cpp:944
+msgid "*.rpt"
+msgstr ""
+
+#: src/LogFrame.cpp:950 src/ReportFrame.cpp:950
+#, fuzzy
+msgid "Filename Exists"
+msgstr "EL archivo existe"
+
+#: src/LogFrame.cpp:951
+#, fuzzy, c-format
+msgid "File '%s' alreadt exists, overwrite?"
+msgstr "El archivo '%s' existe, sobreescribir?"
+
+#: src/LogFrame.cpp:955 src/ReportFrame.cpp:955
+msgid "Report was saved"
+msgstr ""
+
+#: src/LogFrame.cpp:959 src/ReportFrame.cpp:959
+#, fuzzy
+msgid "Report was not saved"
+msgstr "El archivo de registro no fue guardado"
+
+#: src/LogFrame.cpp:960 src/ReportFrame.cpp:960
+#, fuzzy
+msgid "Report not saved"
+msgstr "El archivo de registro no fue guardado"
+
+#: src/LogFrame.cpp:980 src/LogFrame.cpp:992
+#, fuzzy
+msgid "Save Log File"
+msgstr "Guardar en archivo"
+
+#: src/LogFrame.cpp:981
+msgid "*.log"
+msgstr ""
+
+#: src/LogFrame.cpp:988
+msgid "File exists"
+msgstr "EL archivo existe"
+
+#: src/LogFrame.cpp:989
+#, c-format
+msgid "File '%s' exists, overwrite?"
+msgstr "El archivo '%s' existe, sobreescribir?"
+
+#: src/LogFrame.cpp:993
+#, fuzzy
+msgid "Log file was saved"
+msgstr "Archivo de registro guardado"
+
+#: src/LogFrame.cpp:998
+#, fuzzy
+msgid "Log was not saved"
+msgstr "El archivo de registro no fue guardado"
+
+#: src/LogFrame.cpp:999
+msgid "Log file not saved"
+msgstr "El archivo de registro no fue guardado"
+
+#: src/LogFrame.cpp:1059 src/ProductsFrame.cpp:651 src/ReportFrame.cpp:1020
+msgid "Cost:"
+msgstr "Costo:"
+
+#: src/MembersFrame.cpp:43
+msgid "User ID"
+msgstr ""
+
+#: src/MembersFrame.cpp:44
+#, fuzzy
+msgid "Full Name"
+msgstr "Nombre del archivo"
+
+#: src/MembersFrame.cpp:52
+#, fuzzy
+msgid " Set Tariff "
+msgstr "Tarifa"
+
+#: src/MembersFrame.cpp:54
+#, fuzzy
+msgid "Save Changes"
+msgstr "Cambio:"
+
+#: src/MembersFrame.cpp:57
+#, fuzzy
+msgid "Member Details"
+msgstr "Socios"
+
+#: src/MembersFrame.cpp:64
+msgid "Credit: "
+msgstr ""
+
+#: src/MembersFrame.cpp:66
+msgid "Login ID:"
+msgstr ""
+
+#: src/MembersFrame.cpp:72
+#, fuzzy
+msgid "Email:"
+msgstr "E-Mail:"
+
+#: src/MembersFrame.cpp:76
+msgid " Add Credit "
+msgstr ""
+
+#: src/MembersFrame.cpp:78
+msgid "Refund Credit"
+msgstr ""
+
+#: src/MembersFrame.cpp:80
+#, fuzzy
+msgid "Reset Password"
+msgstr "Resetear clave"
+
+#: src/MembersFrame.cpp:189
+msgid "Add new member"
+msgstr "Nuevo socio"
+
+#: src/MembersFrame.cpp:190
+msgid "Type the name:"
+msgstr "Escriba el nombre:"
+
+#: src/MembersFrame.cpp:199
+msgid "The new member could not be created"
+msgstr "No se pudo crear el nuevo socio"
+
+#: src/MembersFrame.cpp:215
+#, fuzzy
+msgid "Confirm"
+msgstr "Conflicto"
+
+#: src/MembersFrame.cpp:216
+msgid "Do you really want to delete this member?"
+msgstr ""
+
+#: src/MembersFrame.cpp:283
+#, fuzzy
+msgid "Select Tariff"
+msgstr "Tarifa"
+
+#: src/MembersFrame.cpp:290
+#, fuzzy
+msgid "0\tNo special tariff"
+msgstr "0\tSin tarifa especial"
+
+#: src/MembersFrame.cpp:328
+msgid "Add Member Credit"
+msgstr ""
+
+#: src/MembersFrame.cpp:329 src/MembersFrame.cpp:355
+#, fuzzy
+msgid "Amount: "
+msgstr "Cantidad:"
+
+#: src/MembersFrame.cpp:354
+msgid "Refund Member Credit"
+msgstr ""
+
+#: src/MembersFrame.cpp:359
+msgid "Could not subtract the amount"
+msgstr ""
+
+#: src/PrePaidFrame.cpp:31
+#, fuzzy
+msgid "  Start Date:"
+msgstr "Hora de inicio:"
+
+#: src/PrePaidFrame.cpp:34
+msgid "Expiry Date:"
+msgstr ""
+
+#: src/PrePaidFrame.cpp:36
+msgid "Lifetime (days):"
+msgstr ""
+
+#: src/PrePaidFrame.cpp:39
+msgid "Number of Tickets:"
+msgstr ""
+
+#: src/PrePaidFrame.cpp:41
+#, fuzzy
+msgid "Face Value:"
+msgstr "Cancelar venta"
+
+#: src/PrePaidFrame.cpp:45
+msgid "Generate"
+msgstr ""
+
+#: src/PrePaidFrame.cpp:46
+#, fuzzy
+msgid "Print"
+msgstr "Precio"
+
+#: src/PrePaidFrame.cpp:55
+msgid "S"
+msgstr ""
+
+#: src/PrePaidFrame.cpp:56
+msgid "No"
+msgstr ""
+
+#: src/PrePaidFrame.cpp:57
+#, fuzzy
+msgid "Ticket Number"
+msgstr "Número de ticket:"
+
+#: src/ProductsFrame.cpp:101 src/ProductsFrame.cpp:124
+msgid "Stock"
+msgstr "Stock"
+
+#: src/ProductsFrame.cpp:104
+msgid "Sell"
+msgstr ""
+
+#: src/ProductsFrame.cpp:107
+#, fuzzy
+msgid "Complete Sale"
+msgstr "Completar venta"
+
+#: src/ProductsFrame.cpp:139
+msgid "Quantity"
+msgstr ""
+
+#: src/ProductsFrame.cpp:305
+msgid "New Product"
+msgstr "Producto nuevo"
+
+#: src/ProductsFrame.cpp:308
+msgid "Category:"
+msgstr "Categoría:"
+
+#: src/ProductsFrame.cpp:317 src/ProductsFrame.cpp:369 src/TarifFrame.cpp:477
+msgid "Price:"
+msgstr "Precio:"
+
+#: src/ProductsFrame.cpp:366
+msgid "Edit Product"
+msgstr "Editar Producto"
+
+#: src/ProductsFrame.cpp:422
+#, fuzzy
+msgid "Adjust Stock"
+msgstr "Ajustar stock"
+
+#: src/ProductsFrame.cpp:423
+msgid "Quantity to add:"
+msgstr ""
+
+#: src/ProductsFrame.cpp:425
+#, fuzzy
+msgid "Log Expense"
+msgstr "Registrar gasto"
+
+#: src/ProductsFrame.cpp:426
+#, fuzzy
+msgid "Enter the price (0 to not log):"
+msgstr "Inserte el precio (0 para no registrar):"
+
+#: src/ProductsFrame.cpp:435
+#, c-format
+msgid "Purchase: %s (%d)"
+msgstr "Compra: %s (%d)"
+
+#: src/ProductsFrame.cpp:484
+msgid "Quantity Sold:"
+msgstr ""
+
+#: src/ProductsFrame.cpp:520
+#, fuzzy
+msgid "Return Products"
+msgstr "Productos"
+
+#: src/ProductsFrame.cpp:521
+msgid "Quantity Returned:"
+msgstr ""
+
+#: src/ReportFrame.cpp:56
+#, fuzzy
+msgid "     Clients: "
+msgstr "Cliente:"
+
+#: src/ReportFrame.cpp:175
+#, fuzzy
+msgid "Details"
+msgstr "Clientes"
+
+#: src/ReportFrame.cpp:944
+msgid "*.rpt.html"
+msgstr ""
+
+#: src/ReportFrame.cpp:951
+#, fuzzy, c-format
+msgid "File '%s' already exists, overwrite?"
+msgstr "El archivo '%s' existe, sobreescribir?"
+
+#: src/TarifFrame.cpp:36
+#, fuzzy
+msgid "Fraction After"
+msgstr "Fraccionado después de"
+
+#: src/TarifFrame.cpp:44
+msgid "minutes."
+msgstr "minutos."
+
+#: src/TarifFrame.cpp:48 src/TarifFrame.cpp:617
+#, fuzzy
+msgid "Tariff Name:"
+msgstr "Nombre de la tarifa:"
+
+#: src/TarifFrame.cpp:52
+#, fuzzy
+msgid "Set Tariff"
+msgstr "Tarifa"
+
+#: src/TarifFrame.cpp:61
+msgid "Days"
+msgstr "Días"
+
+#: src/TarifFrame.cpp:66
+msgid "Add"
+msgstr "Agregar"
+
+#: src/TarifFrame.cpp:75
+msgid "Tariff Elements"
+msgstr ""
+
+#: src/TarifFrame.cpp:78
+#, fuzzy
+msgid "Start Time:"
+msgstr "Hora de inicio:"
+
+#: src/TarifFrame.cpp:83
+msgid "Hourly Rate:"
+msgstr ""
+
+#: src/TarifFrame.cpp:123
+msgid "Minutes"
+msgstr "Minutos"
+
+#: src/TarifFrame.cpp:127
+#, fuzzy
+msgid "Add Price"
+msgstr "Agregar precio"
+
+#: src/TarifFrame.cpp:129
+#, fuzzy
+msgid "Delete Price"
+msgstr "Borrar precio"
+
+#: src/TarifFrame.cpp:330
+#, fuzzy
+msgid "No days were selected"
+msgstr "No se seleccionaron días"
+
+#: src/TarifFrame.cpp:331
+msgid "There isn't any selected day."
+msgstr "No hay ningun día seleccionado."
+
+#: src/TarifFrame.cpp:359 src/TarifFrame.cpp:452
+msgid "Conflict"
+msgstr "Conflicto"
+
+#: src/TarifFrame.cpp:360
+#, fuzzy
+msgid ""
+"There is a conflict with another part of the tariff.\n"
+"Conflicting day(s) have been deselected."
+msgstr ""
+"Hay un conflicto con otra parte de la tarifa.\n"
+"Se han deseleccionado los días en conflicto."
+
+#: src/TarifFrame.cpp:419
+#, fuzzy
+msgid "No day was selected"
+msgstr "No se seleccionaron días"
+
+#: src/TarifFrame.cpp:420
+msgid "Please select a day."
+msgstr ""
+
+#: src/TarifFrame.cpp:453
+#, fuzzy
+msgid ""
+"There is a conflict with another part of the tariff.\n"
+"I have deselected the conflicting days."
+msgstr ""
+"Hay un conflicto con otra parte de la tarifa.\n"
+"Se han deseleccionado los días en conflicto."
+
+#: src/TarifFrame.cpp:467
+msgid "Add price"
+msgstr "Agregar precio"
+
+#: src/TarifFrame.cpp:559
+msgid "Tarif"
+msgstr "Tarifa"
+
+#: src/TarifFrame.cpp:616
+#, fuzzy
+msgid "Use New Tariff"
+msgstr "Tarifa"
+
+#: src/TarifFrame.cpp:627
+msgid "Tariff Name is invalid."
+msgstr ""
+
+#~ msgid "Open cash register"
+#~ msgstr "Abrir caja registradora"
+
+#~ msgid "\tStop current session"
+#~ msgstr "\tParar sesión actual"
+
+#~ msgid "Turn off"
+#~ msgstr "Apagar"
+
+#~ msgid "Turn off screen"
+#~ msgstr "Apagar la pantalla"
+
+#~ msgid "Allow users to start the session"
+#~ msgstr "Permitir a los usuarios iniciar la sesión"
+
+#~ msgid "Substract products"
+#~ msgstr "Substraer productos"
+
+#~ msgid "New sale"
+#~ msgstr "Nueva venta"
+
+#~ msgid "Code:"
+#~ msgstr "Código"
+
+#~ msgid "Insert the amount to add:"
+#~ msgstr "Inserte la cantidad a agregar:"
+
+#~ msgid "Subtract products"
+#~ msgstr "Substraer productos"
+
+#~ msgid "Edition:"
+#~ msgstr "Edición:"
+
+#~ msgid "Price per hour:"
+#~ msgstr "Precio por hora:"
+
+#~ msgid "Apply changes"
+#~ msgstr "Aplicar cambios"
+
+#~ msgid "Set tarif"
+#~ msgstr "Elegir Tarifa"
+
+#~ msgid ""
+#~ "Usage: %s [options]\n"
+#~ "Options:\n"
+#~ "\t-port <port>: Listen on the specified port (default: 2999)\n"
+#~ "\t-nossl: do not use SSL to connect (default: use SSL)\n"
+#~ "\t-certpass <password>: password used for the cerfificate (default: "
+#~ "none)\n"
+#~ "\t\t\t       Ignored if not using SSL (-nossl option enabled).\n"
+#~ msgstr ""
+#~ "Modo de uso: %s [opciones]\n"
+#~ "Opciones:\n"
+#~ "\t-port <puerto>: Escuchar en el puerto especificado (defecto: 2999)\n"
+#~ "\t-nossl: no usar SSL en la conección (defecto: usar SSL)\n"
+#~ "\t-certpass <clave>: clave usada para el certificado (defecto: nada)\n"
+#~ "\t\t\t       Ingnorado si no se usa SSL.\n"
+
+#~ msgid "[!]Networking not initialized\n"
+#~ msgstr "[!]Soporte de red no inicializado\n"
+
+#~ msgid "[E]Bad certificate password given\n"
+#~ msgstr "[E]La clave de certificado dada es inválida\n"
+
+#~ msgid "[E]File \"CA.pem\" not found!!\n"
+#~ msgstr "[E]Archivo \"CA.pem\" no encontrado!!\n"
+
+#~ msgid "[E]File \"cert.pem\" not found!!\n"
+#~ msgstr "[E]Archivo \"cert.pem\" no encontrado!!\n"
+
+#~ msgid "[E]Invalid option %s\n"
+#~ msgstr "[E]Opción inválida %s\n"

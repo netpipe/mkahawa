@@ -1,0 +1,1029 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mkahawa 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-16 17:04-0500\n"
+"PO-Revision-Date: 2010-01-14 12:40+600\n"
+"Last-Translator: Bernard Owuor <owuor8@sourceforge.net>\n"
+"Language-Team: Japanese <owuor8@sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/CashingFrame.cpp:75 ../src/ProductsFrame.cpp:19
+#: ../src/TarifFrame.cpp:263
+msgid "Permission"
+msgstr "許可"
+
+#: ../src/CashingFrame.cpp:76 ../src/ProductsFrame.cpp:20
+#: ../src/TarifFrame.cpp:264
+msgid ""
+"Unable to access this feature.\n"
+" Contact the Administrator"
+msgstr ""
+"この機能はアクセスできません"
+""
+
+#: ../src/CashingFrame.cpp:111 ../src/CashingFrame.cpp:410
+msgid "Client:"
+msgstr ""
+
+#: ../src/CashingFrame.cpp:113 ../src/CashingFrame.cpp:124
+#: ../src/ProductsFrame.cpp:99
+msgid "Edit"
+msgstr "編集"
+
+#: ../src/CashingFrame.cpp:118
+msgid "Browse Time:"
+msgstr "時間"
+
+#: ../src/CashingFrame.cpp:129 ../src/CashingFrame.cpp:456
+#: ../src/CCLWin.cpp:359
+msgid "Products:"
+msgstr "商品"
+
+#: ../src/CashingFrame.cpp:142 ../src/CCLWin.cpp:269
+#: ../src/ProductsFrame.cpp:122 ../src/ProductsFrame.cpp:138
+#: ../src/TarifFrame.cpp:572
+msgid "Name"
+msgstr "たりふ名"
+
+#: ../src/CashingFrame.cpp:143 ../src/LogFrame.cpp:91 ../src/LogFrame.cpp:101
+#: ../src/LogFrame.cpp:113 ../src/LogFrame.cpp:920
+msgid "Amount"
+msgstr "単数"
+
+#: ../src/CashingFrame.cpp:144 ../src/LogFrame.cpp:80 ../src/LogFrame.cpp:102
+#: ../src/ProductsFrame.cpp:123 ../src/TarifFrame.cpp:124
+msgid "Price"
+msgstr "値段"
+
+#: ../src/CashingFrame.cpp:145
+msgid "Time Interval:"
+msgstr "時間間隔"
+
+#: ../src/CashingFrame.cpp:153 ../src/CCLWin.cpp:280 ../src/LogFrame.cpp:77
+#: ../src/NotpaidFrame.cpp:33 ../src/TarifFrame.cpp:60
+msgid "Start"
+msgstr "スタート"
+
+#: ../src/CashingFrame.cpp:154
+msgid "Duration"
+msgstr "消費時間"
+
+#: ../src/CashingFrame.cpp:158
+msgid "Total Duration:"
+msgstr "総合時間"
+
+#: ../src/CashingFrame.cpp:167
+msgid "Total Amount:"
+msgstr "総合消費"
+
+#: ../src/CashingFrame.cpp:177 ../src/CashingFrame.cpp:586
+msgid "Discount:"
+msgstr "割引"
+
+#: ../src/CashingFrame.cpp:181
+msgid "Cash"
+msgstr "キャッシュ"
+
+#: ../src/CashingFrame.cpp:183
+msgid "Log as cancelled"
+msgstr "キャンセルとしてログ"
+
+#: ../src/CashingFrame.cpp:185
+msgid "Cancel sale"
+msgstr "キャンセル"
+
+#. editticket = new FXButton(hframe8,_("Edit ticket format"),NULL,this,
+#. ID_TICKETEDIT,FRAME_RAISED|FRAME_THICK);
+#: ../src/CashingFrame.cpp:201 ../src/CashingFrame.cpp:977
+msgid "Calculate change"
+msgstr "おつり計算"
+
+#: ../src/CashingFrame.cpp:417
+msgid "Total time:"
+msgstr "総合時間"
+
+#: ../src/CashingFrame.cpp:462
+msgid "Workstation time:"
+msgstr "商用時間"
+
+#: ../src/CashingFrame.cpp:522
+msgid "Tax"
+msgstr "税"
+
+#: ../src/CashingFrame.cpp:548 ../src/LogFrame.cpp:1040
+#: ../src/ProductsFrame.cpp:632
+msgid "Ticket number:"
+msgstr "チケット番号"
+
+#: ../src/CashingFrame.cpp:555 ../src/LogFrame.cpp:1047
+#: ../src/ProductsFrame.cpp:639
+msgid "Date:"
+msgstr "日付："
+
+#: ../src/CashingFrame.cpp:564 ../src/LogFrame.cpp:163
+msgid "Member:"
+msgstr "メンバー："
+
+#: ../src/CashingFrame.cpp:579
+msgid "Subtotal:"
+msgstr "トータル"
+
+#: ../src/CashingFrame.cpp:606
+msgid "Total price:"
+msgstr "全体値段"
+
+#: ../src/CashingFrame.cpp:753
+msgid "Change member"
+msgstr "メンバー変更"
+
+#: ../src/CashingFrame.cpp:754
+msgid "Enter the member ID (0 for none):"
+msgstr "メンバーID入力してください（メンバーなしの際ー０）"
+
+#: ../src/CashingFrame.cpp:830
+msgid "New price"
+msgstr "新値段"
+
+#: ../src/CashingFrame.cpp:831
+msgid "Enter the new price:"
+msgstr "新値段入力してください"
+
+#: ../src/CashingFrame.cpp:894
+msgid "Edit ticket format"
+msgstr "チケットフォーマット編集"
+
+#: ../src/CashingFrame.cpp:897
+msgid "Header:"
+msgstr "へーだー"
+
+#: ../src/CashingFrame.cpp:902
+msgid "Footer:"
+msgstr "ふーたー"
+
+#: ../src/CashingFrame.cpp:909
+msgid "Tax name:"
+msgstr "税："
+
+#: ../src/CashingFrame.cpp:913
+msgid "Tax %:"
+msgstr "税％："
+
+#: ../src/CashingFrame.cpp:919 ../src/ProductsFrame.cpp:328
+#: ../src/ProductsFrame.cpp:380 ../src/TarifFrame.cpp:485
+#: ../src/TarifFrame.cpp:568
+msgid "Accept"
+msgstr ""
+
+#: ../src/CashingFrame.cpp:921 ../src/CCLWin.cpp:1986 ../src/CCLWin.cpp:2086
+#: ../src/ProductsFrame.cpp:330 ../src/ProductsFrame.cpp:382
+#: ../src/TarifFrame.cpp:487
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ../src/CashingFrame.cpp:978
+msgid "The client paid with:"
+msgstr "御客様の提示："
+
+#: ../src/CashingFrame.cpp:982 ../src/CashingFrame.cpp:988
+msgid "Change:"
+msgstr "おつり："
+
+#: ../src/CCLWin.cpp:134
+msgid "Information Update"
+msgstr "情報アップデート"
+
+#: ../src/CCLWin.cpp:161
+msgid "Clients"
+msgstr "御客様"
+
+#. (litem1->getButton())->setFont(s_fonthandle);
+#: ../src/CCLWin.cpp:167
+msgid "Log"
+msgstr "ログ"
+
+#. (litem2->getButton())->setFont(s_fonthandle);
+#. delete s_fonthandle;
+#: ../src/CCLWin.cpp:172
+msgid "Report"
+msgstr "レポート"
+
+#: ../src/CCLWin.cpp:197
+msgid "\tStart a Session"
+msgstr "\tセッション開始"
+
+#: ../src/CCLWin.cpp:201
+msgid "\tPause Session"
+msgstr "\tセッションポーズ"
+
+#: ../src/CCLWin.cpp:205
+msgid "\tStop Session"
+msgstr "セッション終了"
+
+#: ../src/CCLWin.cpp:209
+msgid "\tContinue Session"
+msgstr "セッション"
+
+#: ../src/CCLWin.cpp:213
+msgid "\tSwap Sessions"
+msgstr "セッション"
+
+#: ../src/CCLWin.cpp:217
+msgid "\tSet Timeout"
+msgstr "\t時間期限設定"
+
+#: ../src/CCLWin.cpp:221
+msgid "\tMessage Client"
+msgstr "\tクライアントへ"
+
+#: ../src/CCLWin.cpp:225
+msgid "\tStaff Login"
+msgstr "\tスタッフログイン"
+
+#: ../src/CCLWin.cpp:229
+msgid "\tNew Client"
+msgstr "\tクライアント生成"
+
+#: ../src/CCLWin.cpp:233
+msgid "\tDelete Client"
+msgstr "\tクライアント削除"
+
+#: ../src/CCLWin.cpp:248
+msgid "Client Icons"
+msgstr "クライアント アイコン"
+
+#: ../src/CCLWin.cpp:251
+msgid "Client Details"
+msgstr "クライアント詳細"
+
+#: ../src/CCLWin.cpp:278 ../src/NotpaidFrame.cpp:31
+msgid "Client"
+msgstr "クライアント"
+
+#: ../src/CCLWin.cpp:279
+msgid "Status"
+msgstr "ステータス"
+
+#: ../src/CCLWin.cpp:281 ../src/LogFrame.cpp:78 ../src/NotpaidFrame.cpp:34
+msgid "End"
+msgstr "終了"
+
+#: ../src/CCLWin.cpp:282
+msgid "Length"
+msgstr "時間"
+
+#: ../src/CCLWin.cpp:283
+msgid "Session Cost"
+msgstr "セッション価"
+
+#: ../src/CCLWin.cpp:284
+msgid "Other"
+msgstr "他"
+
+#: ../src/CCLWin.cpp:309
+msgid "\tGrant 10 Minutes"
+msgstr "\t十分加算"
+
+#: ../src/CCLWin.cpp:313
+msgid "\tGrant 20 Minutes"
+msgstr "\t二十分加算"
+
+#: ../src/CCLWin.cpp:317
+msgid "\tGrant 30 Minutes"
+msgstr "\t三十分加算"
+
+#: ../src/CCLWin.cpp:321
+msgid "\tGrant 1 Hour"
+msgstr "\t一時間加算"
+
+#: ../src/CCLWin.cpp:338 ../src/LogFrame.cpp:55
+msgid "Time:"
+msgstr "時間："
+
+#: ../src/CCLWin.cpp:345
+msgid "Total:"
+msgstr "トータル："
+
+#: ../src/CCLWin.cpp:352
+msgid "Terminal:"
+msgstr "ターミナル："
+
+#: ../src/CCLWin.cpp:370 ../src/CCLWin.cpp:389
+msgid "Blank Screen"
+msgstr "画面黒"
+
+#: ../src/CCLWin.cpp:371
+msgid "Set Member"
+msgstr "メンバー設定"
+
+#: ../src/CCLWin.cpp:372 ../src/CCLWin.cpp:390
+msgid "Reboot Machine"
+msgstr "マシンを再起動"
+
+#: ../src/CCLWin.cpp:373
+msgid "Shutdown Machine"
+msgstr "マシンをダウン"
+
+#: ../src/CCLWin.cpp:374 ../src/CCLWin.cpp:392
+msgid "Update Client"
+msgstr "クライアント更新"
+
+#: ../src/CCLWin.cpp:376 ../src/CCLWin.cpp:395
+msgid "User May Start Session"
+msgstr "ユーザはセッションをスタート"
+
+#: ../src/CCLWin.cpp:379 ../src/CCLWin.cpp:398
+msgid "Member May Start Session"
+msgstr "メンバーはセッションをスタート"
+
+#: ../src/CCLWin.cpp:382 ../src/CCLWin.cpp:401
+msgid "Allow Assistance Request"
+msgstr "助けを可にする"
+
+#: ../src/CCLWin.cpp:391
+msgid "Shutdown Client"
+msgstr "クライアントをシャットダウン"
+
+#: ../src/CCLWin.cpp:393 ../src/CCLWin.cpp:1652 ../src/CCLWin.cpp:1667
+#: ../src/CCLWin.cpp:1671
+msgid "Admin Password"
+msgstr "アドミンのパスワード"
+
+#: ../src/CCLWin.cpp:409 ../src/LogFrame.cpp:139
+msgid "Products"
+msgstr "品物"
+
+#: ../src/CCLWin.cpp:413
+msgid "Cashing"
+msgstr "キャッシング"
+
+#: ../src/CCLWin.cpp:417
+msgid "Tariff"
+msgstr "タリフ"
+
+#: ../src/CCLWin.cpp:421
+msgid "Members"
+msgstr "メンバー"
+
+#: ../src/CCLWin.cpp:426 ../src/LogFrame.cpp:82 ../src/LogFrame.cpp:104
+#: ../src/LogFrame.cpp:123
+msgid "Staff"
+msgstr "スタッフ"
+
+#: ../src/CCLWin.cpp:506
+msgid "Exit Mkahawa"
+msgstr "ムカハワを終了"
+
+#: ../src/CCLWin.cpp:507
+msgid "Do you really want to quit Mkahawa?"
+msgstr "本当に終了しますか？"
+
+#: ../src/CCLWin.cpp:591 ../src/CCLWin.cpp:619
+msgid "Member"
+msgstr "メンバー"
+
+#: ../src/CCLWin.cpp:592 ../src/CCLWin.cpp:620
+msgid "Member ID (0 for none):"
+msgstr "メンバー番号"
+
+#: ../src/CCLWin.cpp:610 ../src/CCLWin.cpp:644 ../src/LogFrame.cpp:342
+#: ../src/LogFrame.cpp:345 ../src/LogFrame.cpp:348 ../src/TarifFrame.cpp:626
+msgid "Error"
+msgstr "エラー"
+
+#: ../src/CCLWin.cpp:610 ../src/CCLWin.cpp:644
+msgid "Invalid member"
+msgstr "無効メンバー番号"
+
+#: ../src/CCLWin.cpp:639
+msgid "Overdrawn Account"
+msgstr "借り越した講座"
+
+#: ../src/CCLWin.cpp:640
+msgid "Replenish the account first."
+msgstr "まず講座を補う"
+
+#: ../src/CCLWin.cpp:1127
+msgid "account has insufficient credit"
+msgstr "クレジットが不十分"
+
+#: ../src/CCLWin.cpp:1130
+msgid "Member Login Failure"
+msgstr "メンバーログイン不可"
+
+#: ../src/CCLWin.cpp:1253
+msgid "Wrong old password."
+msgstr "間違った古いパスワード"
+
+#: ../src/CCLWin.cpp:1456
+msgid "Client Update File"
+msgstr "クライアント更新ファイル"
+
+#: ../src/CCLWin.cpp:1457
+msgid "*.upd,*.upx"
+msgstr "*.upd,*.upx"
+
+#: ../src/CCLWin.cpp:1460
+msgid "No File Selected"
+msgstr "ファイル選択されていません"
+
+#: ../src/CCLWin.cpp:1461
+msgid "Select an Update File?"
+msgstr "更新ファイルを選択"
+
+#: ../src/CCLWin.cpp:1519
+msgid "Unable to open update file\n"
+msgstr "更新ファイルはオープン出来ません\n"
+
+#: ../src/CCLWin.cpp:1528
+msgid "Unable to read update file\n"
+msgstr "更新ファイルは読めません\n"
+
+#: ../src/CCLWin.cpp:1563
+msgid "Only Admin can update clients."
+msgstr "アドミン権以下は更新できません"
+
+#: ../src/CCLWin.cpp:1569
+msgid "Only connected Clients can be updated"
+msgstr "接続されていないクライアントは更新出来ません"
+
+#. a client is being updated
+#: ../src/CCLWin.cpp:1576 ../src/CCLWin.cpp:1697
+msgid "Update in Progress"
+msgstr "更新は続いています"
+
+#: ../src/CCLWin.cpp:1577
+msgid "Updates can only be made one at a time."
+msgstr "更新は一つずつしか行えません"
+
+#: ../src/CCLWin.cpp:1581
+msgid "Active Client"
+msgstr "仕様可クライアント"
+
+#: ../src/CCLWin.cpp:1582
+msgid "End the client session before updating."
+msgstr "クライアントのセッションをストップから更新してください"
+
+#: ../src/CCLWin.cpp:1587
+msgid "Update File not found\n"
+msgstr "更新ファイルが見つかりません\n"
+
+#: ../src/CCLWin.cpp:1595
+msgid "Unable to open file\n"
+msgstr "ファイルはオープン不可能\n"
+
+#: ../src/CCLWin.cpp:1620
+msgid "Not a Mkahawa Update File\n"
+msgstr "ムカハワ更新ファイルではありません\n"
+
+#: ../src/CCLWin.cpp:1653
+msgid "New Client Admin Password: "
+msgstr "新クライアントのアドミン用パスワード"
+
+#: ../src/CCLWin.cpp:1668
+msgid "Password has been sent!"
+msgstr "パスワードを送信しました"
+
+#: ../src/CCLWin.cpp:1672
+msgid "Password is invalid!"
+msgstr "パスワードは無効です"
+
+#: ../src/CCLWin.cpp:1698
+msgid "Current client is being updated."
+msgstr "このクライアントは更新中です。"
+
+#: ../src/CCLWin.cpp:1834
+msgid "Adjust Timeout"
+msgstr "時間切れ調節"
+
+#: ../src/CCLWin.cpp:1867
+msgid "About"
+msgstr "アバウト"
+
+#: ../src/CCLWin.cpp:1868
+msgid ""
+"Modified by Bernard Owuor, Unwire Technologies (owuor@unwiretechnologies.net)"
+msgstr "Bernard Owuor, Unwire Technologies (owuor@unwiretechnologies.net)"
+
+#: ../src/CCLWin.cpp:1910 ../src/LogFrame.cpp:79 ../src/LogFrame.cpp:90
+#: ../src/NotpaidFrame.cpp:32
+msgid "Time"
+msgstr "時間数："
+
+#: ../src/CCLWin.cpp:1910 ../src/TarifFrame.cpp:469
+msgid "Minutes:"
+msgstr "分数："
+
+#: ../src/CCLWin.cpp:1975
+msgid "Confirm Action"
+msgstr "了解"
+
+#: ../src/CCLWin.cpp:1981
+msgid "Apply this action to all stations?"
+msgstr "この動作を全てのワークステーションに適応"
+
+#: ../src/CCLWin.cpp:1984 ../src/TarifFrame.cpp:70
+msgid "Apply"
+msgstr "適応"
+
+#: ../src/CCLWin.cpp:2058
+msgid "Add new Client"
+msgstr "クライアントを生成"
+
+#: ../src/CCLWin.cpp:2059
+msgid "New Client Name:"
+msgstr "新クライアント名"
+
+#: ../src/CCLWin.cpp:2073
+msgid "Delete Client?"
+msgstr "クライアントを削除？"
+
+#: ../src/CCLWin.cpp:2084 ../src/ProductsFrame.cpp:97 ../src/TarifFrame.cpp:68
+msgid "Delete"
+msgstr "削除"
+
+#: ../src/CCLWin.cpp:2397
+msgid "Add Products"
+msgstr "品物を加える"
+
+#: ../src/CCLWin.cpp:2398
+msgid "Enter the quantity:"
+msgstr "品数："
+
+#: ../src/CCLWin.cpp:2415
+msgid "Remove Products"
+msgstr "品物を引く"
+
+#: ../src/CCLWin.cpp:2416
+msgid "Quantity:"
+msgstr "品数："
+
+#: ../src/CCLWin.cpp:2447
+msgid "Staff Login"
+msgstr "スタッフログイン"
+
+#: ../src/CCLWin.cpp:2448
+msgid "User Name:"
+msgstr "ユーザ名："
+
+#: ../src/CCLWin.cpp:2450
+msgid "Password:"
+msgstr "パスワード："
+
+#: ../src/CCLWin.cpp:2456
+msgid "   Ok   "
+msgstr "  はい  "
+
+#: ../src/CCLWin.cpp:2459
+msgid "  Quit  "
+msgstr "  終わり  "
+
+#: ../src/CCLWin.cpp:2474
+msgid "Welcome"
+msgstr "ようこそ"
+
+#: ../src/CCLWin.cpp:2475
+msgid "Welcome to Mkahawa Cyber Manager"
+msgstr "ムカハワへようこそ"
+
+#: ../src/CCLWin.cpp:2486
+msgid "Login Failure"
+msgstr "ログイン認証失敗"
+
+#: ../src/CCLWin.cpp:2488
+msgid "Invalid Username or Password"
+msgstr "無効ユーザ名およびパスワード"
+
+#: ../src/CCLWin.cpp:2503
+msgid "Logout"
+msgstr "ログアウト"
+
+#: ../src/CCLWin.cpp:2504
+msgid "Do you want to log out?"
+msgstr "ログアウトしますか？"
+
+#: ../src/CCLWin.cpp:2540 ../src/CCLWin.cpp:2561 ../src/CCLWin.cpp:2589
+msgid "Message to Client"
+msgstr "クライアントへのメッセージ"
+
+#: ../src/CCLWin.cpp:2541 ../src/CCLWin.cpp:2562 ../src/CCLWin.cpp:2590
+msgid "Message:"
+msgstr "メッセージ："
+
+#: ../src/LogFrame.cpp:57
+msgid "Sessions: "
+msgstr "セッション： "
+
+#: ../src/LogFrame.cpp:59
+msgid "Products: "
+msgstr "品物： "
+
+#: ../src/LogFrame.cpp:61
+msgid "Expenses: "
+msgstr "： "
+
+#: ../src/LogFrame.cpp:63
+msgid "Total: "
+msgstr "トータル："
+
+#: ../src/LogFrame.cpp:76 ../src/LogFrame.cpp:88 ../src/LogFrame.cpp:99
+msgid "Station"
+msgstr "ステーション"
+
+#: ../src/LogFrame.cpp:81 ../src/LogFrame.cpp:103
+msgid "Discount"
+msgstr "割引"
+
+#. logexpensebtn = new FXButton(hframe10,_("Log Expense"),NULL,this,
+#. ID_LOGEXPENSE,BUTTON_NORMAL|LAYOUT_CENTER_X|
+#. LAYOUT_FILL_X);
+#: ../src/LogFrame.cpp:89 ../src/LogFrame.cpp:136
+msgid "Sessions"
+msgstr "セッション"
+
+#: ../src/LogFrame.cpp:98 ../src/LogFrame.cpp:111
+msgid "Product"
+msgstr "品物"
+
+#: ../src/LogFrame.cpp:100 ../src/LogFrame.cpp:121
+msgid "Date"
+msgstr "年月日"
+
+#: ../src/LogFrame.cpp:112
+msgid "Units"
+msgstr "単位"
+
+#: ../src/LogFrame.cpp:120 ../src/LogFrame.cpp:917
+msgid "Description"
+msgstr "詳細"
+
+#: ../src/LogFrame.cpp:122
+msgid "Spent"
+msgstr "出費"
+
+#: ../src/LogFrame.cpp:128
+msgid "Clear"
+msgstr "クリア"
+
+#: ../src/LogFrame.cpp:130
+msgid "Refresh"
+msgstr "リフレッシュ"
+
+#: ../src/LogFrame.cpp:142
+msgid "Expenses"
+msgstr "出費"
+
+#: ../src/LogFrame.cpp:145 ../src/LogFrame.cpp:954
+msgid "Save Report"
+msgstr "レポートを保存"
+
+#: ../src/LogFrame.cpp:148
+msgid "Save Log"
+msgstr "ログを保存"
+
+#: ../src/LogFrame.cpp:154
+msgid "From:"
+msgstr "時間から："
+
+#: ../src/LogFrame.cpp:157 ../src/LogFrame.cpp:171
+msgid "of"
+msgstr ""
+
+#: ../src/LogFrame.cpp:166
+msgid "Staff:"
+msgstr "スタッフ："
+
+#: ../src/LogFrame.cpp:168
+msgid "    To:"
+msgstr "まで"
+
+#: ../src/LogFrame.cpp:174
+msgid "Canceled"
+msgstr "キャンセル"
+
+#: ../src/LogFrame.cpp:176
+msgid "Summary"
+msgstr "概要"
+
+#: ../src/LogFrame.cpp:179 ../src/TarifFrame.cpp:92
+msgid "Days:"
+msgstr "日日："
+
+#: ../src/LogFrame.cpp:180 ../src/TarifFrame.cpp:94 ../src/TarifFrame.cpp:156
+msgid "Sun"
+msgstr "日"
+
+#: ../src/LogFrame.cpp:184 ../src/TarifFrame.cpp:98 ../src/TarifFrame.cpp:156
+msgid "Mon"
+msgstr "月"
+
+#: ../src/LogFrame.cpp:187 ../src/TarifFrame.cpp:101 ../src/TarifFrame.cpp:156
+msgid "Tue"
+msgstr "火"
+
+#: ../src/LogFrame.cpp:190 ../src/TarifFrame.cpp:104 ../src/TarifFrame.cpp:156
+msgid "Wed"
+msgstr "水"
+
+#: ../src/LogFrame.cpp:193 ../src/TarifFrame.cpp:107 ../src/TarifFrame.cpp:156
+msgid "Thu"
+msgstr "木"
+
+#: ../src/LogFrame.cpp:196 ../src/TarifFrame.cpp:110 ../src/TarifFrame.cpp:156
+msgid "Fri"
+msgstr "金"
+
+#: ../src/LogFrame.cpp:199 ../src/TarifFrame.cpp:113 ../src/TarifFrame.cpp:156
+msgid "Sat"
+msgstr "土"
+
+#: ../src/LogFrame.cpp:202
+msgid "Between:"
+msgstr "間に"
+
+#: ../src/LogFrame.cpp:205
+msgid "and"
+msgstr "と"
+
+#. canceledcheck = new FXCheckButton(hframe5,_("Canceled"),NULL,0,
+#. CHECKBUTTON_NORMAL|LAYOUT_RIGHT);
+#: ../src/LogFrame.cpp:210
+msgid "  Reset  "
+msgstr "  リセット  "
+
+#: ../src/LogFrame.cpp:342
+msgid "Invalid start date"
+msgstr "無効スタート年月日"
+
+#: ../src/LogFrame.cpp:345
+msgid "Invalid end date"
+msgstr "無効エンド年月日"
+
+#: ../src/LogFrame.cpp:349
+msgid "Start date sooner than end date"
+msgstr "スタート年月日はエンド年月日より最近"
+
+#: ../src/LogFrame.cpp:918 ../src/LogFrame.cpp:1052
+#: ../src/ProductsFrame.cpp:644
+msgid "Description:"
+msgstr "詳細："
+
+#: ../src/LogFrame.cpp:920
+msgid "Amount:"
+msgstr "値段："
+
+#: ../src/LogFrame.cpp:943
+msgid "Save Report File"
+msgstr "レポートファイルを保存"
+
+#: ../src/LogFrame.cpp:944
+msgid "*.rpt"
+msgstr "*.rpt"
+
+#: ../src/LogFrame.cpp:950
+msgid "Filename Exists"
+msgstr "ファイル名は存在"
+
+#: ../src/LogFrame.cpp:951
+#, c-format
+msgid "File '%s' alreadt exists, overwrite?"
+msgstr "ファイル'%s'は存在、上書きしますか？"
+
+#: ../src/LogFrame.cpp:955
+msgid "Report was saved"
+msgstr "レポートは保存されました"
+
+#: ../src/LogFrame.cpp:959
+msgid "Report was not saved"
+msgstr "レポートは保存されませんでした"
+
+#: ../src/LogFrame.cpp:960
+msgid "Report not saved"
+msgstr "レポートは保存されませんでした"
+
+#: ../src/LogFrame.cpp:980 ../src/LogFrame.cpp:992
+msgid "Save Log File"
+msgstr "ログファイルを保存"
+
+#: ../src/LogFrame.cpp:981
+msgid "*.log"
+msgstr "*.log"
+
+#: ../src/LogFrame.cpp:988
+msgid "File exists"
+msgstr "ファイルは存在"
+
+#: ../src/LogFrame.cpp:989
+#, c-format
+msgid "File '%s' exists, overwrite?"
+msgstr "ファイル '%s' は存在しています、上書きしますか？"
+
+#: ../src/LogFrame.cpp:993
+msgid "Log file was saved"
+msgstr "ログファイルは保存されました"
+
+#: ../src/LogFrame.cpp:998
+msgid "Log was not saved"
+msgstr "ログファイルは保存されませんでした"
+
+#: ../src/LogFrame.cpp:999
+msgid "Log file not saved"
+msgstr "ログファイルは保存されませんでした"
+
+#: ../src/LogFrame.cpp:1059 ../src/ProductsFrame.cpp:651
+msgid "Cost:"
+msgstr "値段："
+
+#: ../src/ProductsFrame.cpp:95 ../src/TarifFrame.cpp:72
+msgid "New"
+msgstr "生成"
+
+#: ../src/ProductsFrame.cpp:101 ../src/ProductsFrame.cpp:124
+msgid "Stock"
+msgstr "ストック"
+
+#: ../src/ProductsFrame.cpp:104
+msgid "Sell"
+msgstr "販売"
+
+#: ../src/ProductsFrame.cpp:107
+msgid "Complete Sale"
+msgstr "販売完成"
+
+#: ../src/ProductsFrame.cpp:139
+msgid "Quantity"
+msgstr "品数"
+
+#. FXDataTarget codetgt(code);
+#: ../src/ProductsFrame.cpp:305
+msgid "New Product"
+msgstr "新しい品物"
+
+#: ../src/ProductsFrame.cpp:308
+msgid "Category:"
+msgstr "カテゴリー"
+
+#: ../src/ProductsFrame.cpp:313
+msgid "Name:"
+msgstr "名前："
+
+#: ../src/ProductsFrame.cpp:317 ../src/ProductsFrame.cpp:369
+#: ../src/TarifFrame.cpp:477
+msgid "Price:"
+msgstr "値段："
+
+#. FXDataTarget codetgt(code);
+#: ../src/ProductsFrame.cpp:366
+msgid "Edit Product"
+msgstr "品物の修正"
+
+#: ../src/ProductsFrame.cpp:422
+msgid "Adjust Stock"
+msgstr "ストックの調整"
+
+#: ../src/ProductsFrame.cpp:423
+msgid "Quantity to add:"
+msgstr "加算品数"
+
+#: ../src/ProductsFrame.cpp:425
+msgid "Log Expense"
+msgstr "出費をログ"
+
+#: ../src/ProductsFrame.cpp:426
+msgid "Enter the price (0 to not log):"
+msgstr "値段を入力（０ー入力しません）"
+
+#: ../src/ProductsFrame.cpp:435
+#, c-format
+msgid "Purchase: %s (%d)"
+msgstr "買う: %s (%d)"
+
+#: ../src/ProductsFrame.cpp:483
+msgid "Sell Products"
+msgstr "品物販売"
+
+#: ../src/ProductsFrame.cpp:484
+msgid "Quantity Sold:"
+msgstr "販売品数"
+
+#: ../src/ProductsFrame.cpp:520
+msgid "Return Products"
+msgstr "返し品物"
+
+#: ../src/ProductsFrame.cpp:521
+msgid "Quantity Returned:"
+msgstr "返し品数"
+
+#: ../src/TarifFrame.cpp:36
+msgid "Fraction After"
+msgstr "分数後割合"
+
+#: ../src/TarifFrame.cpp:44
+msgid "minutes."
+msgstr "分数。"
+
+#: ../src/TarifFrame.cpp:48 ../src/TarifFrame.cpp:617
+msgid "Tariff Name:"
+msgstr "タリフ名："
+
+#. TODO: setname
+#: ../src/TarifFrame.cpp:52
+msgid "Set Tariff"
+msgstr "タリフ設定"
+
+#: ../src/TarifFrame.cpp:61
+msgid "Days"
+msgstr "日日"
+
+#. settarif = new FXButton(hframe1,_("Set Tariff"),NULL,this,ID_SETTARIF,
+#. FRAME_RAISED|FRAME_THICK);
+#: ../src/TarifFrame.cpp:66
+msgid "Add"
+msgstr "加え"
+
+#: ../src/TarifFrame.cpp:75
+msgid "Tariff Elements"
+msgstr "タリフの元素"
+
+#: ../src/TarifFrame.cpp:78
+msgid "Start Time:"
+msgstr "スタート時："
+
+#: ../src/TarifFrame.cpp:83
+msgid "Hourly Rate:"
+msgstr "毎時間"
+
+#: ../src/TarifFrame.cpp:123
+msgid "Minutes"
+msgstr "分数"
+
+#: ../src/TarifFrame.cpp:127
+msgid "Add Price"
+msgstr "値段を加え"
+
+#: ../src/TarifFrame.cpp:129
+msgid "Delete Price"
+msgstr "値段の削除"
+
+#: ../src/TarifFrame.cpp:330
+msgid "No days were selected"
+msgstr "日日は選択されていません"
+
+#: ../src/TarifFrame.cpp:331
+msgid "There isn't any selected day."
+msgstr "一つも日日は選択されていません"
+
+#: ../src/TarifFrame.cpp:359 ../src/TarifFrame.cpp:452
+msgid "Conflict"
+msgstr "対立設定"
+
+#: ../src/TarifFrame.cpp:360
+msgid ""
+"There is a conflict with another part of the tariff.\n"
+"Conflicting day(s) have been deselected."
+msgstr "他タリフ分と対立しています\n"
+"対立している日日を選択しませんよう"
+
+#: ../src/TarifFrame.cpp:419
+msgid "No day was selected"
+msgstr "何も日日は選択されていません"
+
+#: ../src/TarifFrame.cpp:420
+msgid "Please select a day."
+msgstr "日日を選択してください"
+
+#: ../src/TarifFrame.cpp:453
+msgid ""
+"There is a conflict with another part of the tariff.\n"
+"I have deselected the conflicting days."
+msgstr ""
+"他タリフ分と対立しています。\n"
+"対立している日日を選択されないようしました"
+
+#: ../src/TarifFrame.cpp:467
+msgid "Add price"
+msgstr "値段を加えます"
+
+#: ../src/TarifFrame.cpp:559
+msgid "Tarif"
+msgstr "タリフ"
+
+#: ../src/TarifFrame.cpp:571
+msgid "ID"
+msgstr "ID"
+
+#: ../src/TarifFrame.cpp:616
+msgid "Use New Tariff"
+msgstr "新タリフを仕様"
+
+#: ../src/TarifFrame.cpp:627
+msgid "Tariff Name is invalid."
+msgstr "無効タリフ名"
