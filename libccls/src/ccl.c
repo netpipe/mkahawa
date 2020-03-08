@@ -196,21 +196,21 @@ CCL_networking_init(gushort port, gint * error)
 
   if (ccl->events.maxfd < ccl->events.listenfd)
     ccl->events.maxfd = ccl->events.listenfd;
-  
+
   FD_SET(ccl->events.listenfd, &(ccl->events.readfds));
 #ifdef DEBUG
   {
     char *bcp;
     pthread_t th;
-    
+
     bcp = BIO_get_accept_port(ccl->events.listenbio);
     printf("** CCL_networking_init(): BIO_get_accept_port: %s **\n", bcp);
-    
+
   }
 #endif
   /* now start listening */
   ccl->tid = pthread_create(&th, NULL, do_ccl_server, portstr);
-  
+
   return TRUE;
 }
 
@@ -286,11 +286,11 @@ CCL_product_new(const gchar * category, const gchar * name, guint price)
 {
   gchar *cmd = NULL;
   gint id;
-  
+
   id = 1 + _greatest_product_id();
-  
+
   if (0 >= id) id = 1; /* Make the first one have id 1 instead of 0 */
-  
+
   cmd = sqlite3_mprintf("insert into products\n"
 			"(id, name, category, price, stock)\n"
 			"values(%d, %Q, %Q, %u.%.2u, %u);",
@@ -310,7 +310,7 @@ void
 CCL_product_delete(gint product)
 {
   gchar *cmd = NULL;
-  
+
   /*cmd = sqlite3_mprintf("update products set stock = %d\n"
     "where id = %d;", CCL_DELETEDPRODUCT, product);*/
   cmd = sqlite3_mprintf("update products set flags = %d\n"
@@ -463,7 +463,7 @@ CCL_product_flags_set(gint product, gint flags)
   gchar *cmd = NULL;
 
   g_return_if_fail(CCL_product_exists(product));
-  
+
   cmd = sqlite3_mprintf("update products\n"
 			"set flags = %d where id = %d;",
 			flags, product);
@@ -493,7 +493,7 @@ CCL_product_flags_get(gint product)
 
   if (sqlite3_step(stmt) == SQLITE_ROW)
     flags = sqlite3_column_int(stmt, 0);
-  
+
   sqlite3_finalize(stmt);
 
   return flags;
@@ -577,7 +577,7 @@ CCL_product_sell(gint product, guint amount, guint totalprice, gint flags, gint 
  * @param   product The id of the product.
  * @param   price Amount of money paid
  * @param   empid employee id
- * @return The id of the log entry, or -1. 
+ * @return The id of the log entry, or -1.
  *
  */
 int
@@ -594,7 +594,7 @@ CCL_pay_account(gint member, gdouble price, gint empid)
 
       newcredit = CCL_member_credit_get(member) + price;
       if ((newcredit)>=0){
-	guint intcred = newcredit; 
+	guint intcred = newcredit;
 	/*update*/
 	CCL_member_credit_set(member, newcredit);
 	/*log*/
@@ -664,7 +664,7 @@ CCL_product_stock_get(gint product)
 int do_cnxn_proc(void *arg)
 {
   gint client = (int) arg;
-  
+
   CCL_client *c = g_datalist_id_get_data(&(ccl->clients), client);
   gboolean connection_closed = FALSE;
   guint cmd = 0;
@@ -672,7 +672,7 @@ int do_cnxn_proc(void *arg)
   void *data = NULL;
   gint bytes = 0;
   BIO *bio = c->bio;
-  
+
 
 #ifdef DEBUG_T
   printf ("Starting Thread: Client = %d\n", client);
@@ -687,7 +687,7 @@ int do_cnxn_proc(void *arg)
       {
 	connection_closed = TRUE;
       }
-    
+
     if (!connection_closed)
       {
 	/*read command's data size from client*/
@@ -725,7 +725,7 @@ int do_cnxn_proc(void *arg)
 	  ccl->events.on_disconnect(client,
 				    ccl->events.on_disconnect_data);
 	/*Break from the loop - and end thread*/
-	break;  
+	break;
       }
   }
 #ifdef DEBUG_T
@@ -745,7 +745,7 @@ int do_ccl_server(void *arg)
   while (1 == BIO_do_accept(ccl->events.listenbio))
     {
       newbio = BIO_pop(ccl->events.listenbio);
-      
+
 #ifdef DEBUG
       {
 	char *bcp = NULL;
@@ -753,7 +753,7 @@ int do_ccl_server(void *arg)
 	  int fd = BIO_get_fd(newbio, NULL);
 	  socklen_t salen = sizeof(struct sockaddr);
 	  int i;
-	  
+
 	  getpeername(fd, &sa, &salen);
 	  bcp = BIO_get_accept_port(newbio);
 	  printf("** CCL_check_events(): BIO_get_accept_port: %s **\n", bcp);
@@ -761,20 +761,20 @@ int do_ccl_server(void *arg)
 	    printf("%02X ", ((unsigned char *)&sa)[i]);
 	  printf("\n");
 	  if (!bcp) free(bcp);
-	  
+
       }
 #endif
       if (ccl->events.ssl_ctx)
 	{
 	  ssl = SSL_new(ccl->events.ssl_ctx);
 	  SSL_set_fd(ssl, BIO_get_fd(newbio, NULL));
-	    BIO_set(newbio, BIO_f_ssl());
+	    /*BIO_set(newbio, BIO_f_ssl());*/
 	    BIO_set_ssl(newbio, ssl, 0);
 	    BIO_set_ssl_mode(newbio, FALSE);
 	}
       FD_SET(BIO_get_fd(newbio, NULL), &rfd);
-      
-      /* Only perform the handshake if this is a genuine connection, 
+
+      /* Only perform the handshake if this is a genuine connection,
        * I dont want to block forever, if the connection is not valid */
       if (!select(BIO_get_fd(newbio, NULL) + 1, &rfd, NULL, NULL, &delta))
 	BIO_free(newbio);
@@ -784,25 +784,25 @@ int do_ccl_server(void *arg)
 	  gint size;
 	  CCL_client *client = NULL;
 	  gint id;
-	  
+
 	  if (BIO_read(newbio, &size, sizeof(size))>0){
 	    size  = ntohl(size);
 	    if (size > 256)  size = 256;  /* sanity check */
 	    name = g_malloc0(size);
-	    /* read the client name */ 
+	    /* read the client name */
 	    BIO_read(newbio, name, size);
-	    
+
 	    id = CCL_client_new(name);
 	    g_free(name);
-	    
-	    client = g_datalist_id_get_data(&(ccl->clients), id);		
+
+	    client = g_datalist_id_get_data(&(ccl->clients), id);
 	    /* Obtain Client IP address */
 	    {
 	      socklen_t salen = sizeof(struct sockaddr);
 	      struct sockaddr sa;
 	      int v1=0, v2=0, v3=0, v4=0;
 	      int fd = BIO_get_fd(newbio, NULL);
-	      
+
 	      getpeername(fd, &sa, &salen);
 	      v1 = (int)(((unsigned char *)&sa)[4]);
 	      v2 = (int)(((unsigned char *)&sa)[5]);
@@ -811,17 +811,17 @@ int do_ccl_server(void *arg)
 	      /*client->ipaddr = *(guint32 *)cp;*/
 	      client->ipaddr = (v4<<24) | (v3<<16) | (v2<<8) | v1;
 #ifdef DEBUG_A
-	      printf("v1=%02X, v2=%02X, v3=%02X, v4=%02X, ipaddr=%08X\n", 
+	      printf("v1=%02X, v2=%02X, v3=%02X, v4=%02X, ipaddr=%08X\n",
 		     v1, v2, v3, v4, client->ipaddr);
 #endif
 	    }
 	    /* If a connection for this client already exists, lets
 	     * make sure, that our old connection still exists.
 	     * If not, then free it, and set it as disconnected */
-	    if (INVALID_SOCKET != client->sockfd) 
+	    if (INVALID_SOCKET != client->sockfd)
 	      {
 		fd_set wfd;
-		
+
 		FD_ZERO(&wfd);
 		FD_SET(client->sockfd, &wfd);
 		if (!select(client->sockfd + 1, NULL, &wfd, NULL, &delta))
@@ -830,20 +830,20 @@ int do_ccl_server(void *arg)
 		    client->sockfd = INVALID_SOCKET;
 		  }
 	      }
-	    
+
 	    /*Now open the new connection */
 	    if (INVALID_SOCKET == client->sockfd)
 	      {
 		pthread_t th;
-		
+
 		client->bio = newbio;
 		client->sockfd = BIO_get_fd(newbio, NULL);
-		
+
 		if (ccl->events.on_connect)
 		  ccl->events.on_connect(id, ccl->events.on_connect_data);
-		
+
 		client->tid = pthread_create(&th, NULL, do_cnxn_proc, (void *)id);
-		
+
 	      }
 	    else
 	      BIO_free(newbio);
@@ -864,7 +864,7 @@ gboolean
 CCL_check_events(void)
 {
   /*do nothing*/
-  
+
   return TRUE;
 }
 
@@ -929,9 +929,9 @@ _init_db(sqlite3 * db)
 				   "tickets"))
 	TICKETS = TRUE;
     }
-  
+
   sqlite3_finalize(stmt);
- 
+
   if (!DATA){
     char *errmsg;
 
@@ -949,7 +949,7 @@ _init_db(sqlite3 * db)
       printf("**CCL_Init(): ** Error [%s]\n", errmsg);
       sqlite3_free(errmsg);
     }
-#endif    
+#endif
   }
   if (!EMPLOYEES){
     gchar *cmd = NULL;
@@ -967,9 +967,9 @@ _init_db(sqlite3 * db)
 		 "    hiredate integer,\n"
 		 "    superid integer,\n"
 		 "    flags integer default 0 not null);", NULL, NULL, NULL);
-    
+
     cmd = sqlite3_mprintf("insert into employees (id, empusr, empname, emppass, \n"
-			  "emplevel) values (1, %Q, %Q, %Q, %ld);", 
+			  "emplevel) values (1, %Q, %Q, %Q, %ld);",
 			  "admin", "Administrator", "admin", 0x7FFFFFFF);
 
     retval = sqlite3_exec(db, cmd, NULL, NULL, &errmsg);
@@ -1053,7 +1053,7 @@ _init_db(sqlite3 * db)
     /*Default Tariff*/
     cmd = sqlite3_mprintf("insert into tarifs (id, tarif, days, \n"
 			  "stime, hourprice, incprice, fafter, tname) \n"
-			  "values (1, 1, 127, 00:00, 6000, 100, 10, %Q);", 
+			  "values (1, 1, 127, 00:00, 6000, 100, 10, %Q);",
 			  "Default");
 
     sqlite3_exec(db, cmd, NULL, NULL, NULL);
@@ -1105,9 +1105,9 @@ _loadMembersCB(void *ptr, int argc, char **argv, char **colnames)
 
 #ifdef DEBUG
   {
-    int i; 
+    int i;
     printf("_LoadMembersCB(): argc=%d\n", argc);
-    for (i=0; i<argc; i++) 
+    for (i=0; i<argc; i++)
       printf("[%d = %s]", i, argv[i]);
     printf("\n");
   }
@@ -1132,9 +1132,9 @@ _loadEmployeesCB(void *ptr, int argc, char **argv, char **colnames)
 
 #ifdef DEBUG
   {
-    int i; 
+    int i;
     printf("_LoadEmployeesCB(): argc=%d\n", argc);
-    for (i=0; i<argc; i++) 
+    for (i=0; i<argc; i++)
       printf("[%d = %s]", i, argv[i]);
     printf("\n");
   }
@@ -1193,7 +1193,7 @@ _ShutdownClientConnectionFunc(GQuark key_id, gpointer data, gpointer user_data)
 static gint
 _cert_verify(gint ok, X509_STORE_CTX * x509_ctx)
 {
-  gint error = X509_STORE_CTX_get_error(x509_ctx); 
+  gint error = X509_STORE_CTX_get_error(x509_ctx);
 
   ERR_load_X509_strings();
   if (!ok)
@@ -1231,19 +1231,19 @@ _initialize_ssl_ctx(const char * cafile, const gchar * keyfile,
 
   /* Load our keys and certificates*/
   SSL_CTX_use_certificate_file(ctx, keyfile, SSL_FILETYPE_PEM);
-  
+
   if (1 != SSL_CTX_use_PrivateKey_file(ctx, keyfile, SSL_FILETYPE_PEM))
     {
       if (err) *err = CCL_ERROR_BAD_PASSWORD;
       goto error;
     }
- 
+
   if (1 != SSL_CTX_check_private_key(ctx))
-    { 
+    {
       if (err) *err = CCL_ERROR_BAD_PASSWORD;
       goto error;
     }
-  
+
   if (1 != SSL_CTX_load_verify_locations(ctx, cafile, NULL))
     {
       if (err) *err = CCL_ERROR_COULD_NOT_LOAD_VL;
@@ -1253,7 +1253,7 @@ _initialize_ssl_ctx(const char * cafile, const gchar * keyfile,
   SSL_CTX_set_verify(ctx,
 		     SSL_VERIFY_PEER|SSL_VERIFY_CLIENT_ONCE
 		     |SSL_VERIFY_FAIL_IF_NO_PEER_CERT, _cert_verify);
-  
+
   return ctx;
 
 error:

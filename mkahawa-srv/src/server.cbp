@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mkahawa" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="./Pong" prefix_auto="0" extension_auto="0" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+			</Target>
+			<Target title="emscripten">
+				<Option output="./test.html" prefix_auto="0" extension_auto="0" />
+				<Option type="1" />
+				<Option compiler="emscripten" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-DTEST_LOOPED_PLAYBACK" />
+				</Compiler>
+				<Linker>
+					<Add option="-s ALLOW_MEMORY_GROWTH=1" />
+					<Add option="--preload-file media/" />
+					<Add option="-s FULL_ES2=1" />
+					<Add option="-s DISABLE_EXCEPTION_CATCHING=0" />
+					<Add option="-s NO_EXIT_RUNTIME=1" />
+					<Add library="ogg" />
+					<Add library="vorbis" />
+					<Add library="vorbisfile" />
+					<Add library="openal" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="default;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="`pkg-config --cflags gtk+-2.0 gmodule-2.0`" />
+			<Add option="-D_IRR_EMSCRIPTEN_PLATFORM_" />
+			<Add option="-D_IRR_STATIC_LIB_" />
+			<Add option="-D__EMSCRIPTEN__" />
+			<Add option='-DPACKAGE_NAME=\&quot;\&quot;' />
+			<Add option='-DPACKAGE_TARNAME=\&quot;\&quot;' />
+			<Add option='-DPACKAGE_VERSION=\&quot;\&quot;' />
+			<Add option='-DPACKAGE_STRING=\&quot;\&quot;' />
+			<Add option='-DPACKAGE_BUGREPORT=\&quot;\&quot;' />
+			<Add option='-DPACKAGE_URL=\&quot;\&quot;' />
+			<Add option='-DPACKAGE=\&quot;mkahawa\&quot;' />
+			<Add option='-DVERSION=\&quot;0.4\&quot;' />
+			<Add option="-DENABLE_NLS=1" />
+			<Add option="-DHAVE_GETTEXT=1" />
+			<Add option="-DHAVE_DCGETTEXT=1" />
+			<Add option="-DHAVE_LIBFOX_1_6=1" />
+			<Add option="-DSTDC_HEADERS=1" />
+			<Add option="-DHAVE_SYS_TYPES_H=1" />
+			<Add option="-DHAVE_SYS_STAT_H=1" />
+			<Add option="-DHAVE_STDLIB_H=1" />
+			<Add option="-DHAVE_STRING_H=1" />
+			<Add option="-DHAVE_MEMORY_H=1" />
+			<Add option="-DHAVE_STRINGS_H=1" />
+			<Add option="-DHAVE_INTTYPES_H=1" />
+			<Add option="-DHAVE_STDINT_H=1" />
+			<Add option="-DHAVE_UNISTD_H=1" />
+			<Add option="-DHAVE_LIBCCLS=1" />
+			<Add directory="/home/Dev/libs/Scripting/emsdk/emscripten-projects/irrlicht-ogl-es/irrlicht/include" />
+			<Add directory="src" />
+			<Add directory="../media/theora/include" />
+			<Add directory="../media/libtheoraplayer/include" />
+			<Add directory="/usr/include/AL" />
+			<Add directory="../media/Ogg/include" />
+			<Add directory="../../libcclc/src" />
+			<Add directory="../../libccls/src" />
+		</Compiler>
+		<Linker>
+			<Add option="`pkg-config --libs   gtk+-2.0 gmodule-2.0`" />
+			<Add library="cclc" />
+			<Add library="ccls" />
+			<Add library="pthread" />
+			<Add library="FOX-1.6" />
+			<Add library="ssl" />
+			<Add library="crypto" />
+			<Add library="sqlite3" />
+			<Add library="SM" />
+			<Add library="ICE" />
+			<Add directory="/home/Dev/libs/Scripting/emsdk/emscripten-projects/irrlicht-ogl-es/irrlicht/lib/Linux" />
+			<Add directory="../media/libtheoraplayer" />
+			<Add directory="../media/theora/" />
+			<Add directory="../media/Ogg" />
+			<Add directory="../media/Vorbis" />
+			<Add directory="../../libcclc/src/.libs" />
+			<Add directory="../../libccls/src/.libs" />
+		</Linker>
+		<Unit filename="CCLIconItem.cpp" />
+		<Unit filename="CCLIconItem.h" />
+		<Unit filename="CCLWin.cpp" />
+		<Unit filename="CCLWin.h" />
+		<Unit filename="CashingFrame.cpp" />
+		<Unit filename="CashingFrame.h" />
+		<Unit filename="EmployeesFrame.cpp" />
+		<Unit filename="EmployeesFrame.h" />
+		<Unit filename="LogFrame.cpp" />
+		<Unit filename="LogFrame.h" />
+		<Unit filename="MSGWin.cpp" />
+		<Unit filename="MSGWin.h" />
+		<Unit filename="MembersFrame.cpp" />
+		<Unit filename="MembersFrame.h" />
+		<Unit filename="NotpaidFrame.cpp" />
+		<Unit filename="NotpaidFrame.h" />
+		<Unit filename="ProductsFrame.cpp" />
+		<Unit filename="ProductsFrame.h" />
+		<Unit filename="QTicketsBox.cpp" />
+		<Unit filename="QTicketsBox.h" />
+		<Unit filename="ReportFrame.cpp" />
+		<Unit filename="ReportFrame.h" />
+		<Unit filename="SettingsBox.cpp" />
+		<Unit filename="SettingsBox.h" />
+		<Unit filename="TarifFrame.cpp" />
+		<Unit filename="TarifFrame.h" />
+		<Unit filename="TicketsBox.cpp" />
+		<Unit filename="TicketsBox.h" />
+		<Unit filename="cclfox.h" />
+		<Unit filename="cmds.h" />
+		<Unit filename="icons.cpp" />
+		<Unit filename="icons.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="verifiers.cpp" />
+		<Unit filename="verifiers.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
